@@ -13,6 +13,8 @@
 #define LED_PIN 0
 
 void setup() {
+  adc_disable();
+  
   pinMode(BEEPER_PIN, OUTPUT);
   pinMode(LED_PIN, OUTPUT);
   
